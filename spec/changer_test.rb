@@ -12,4 +12,9 @@ class ChangerTest < MiniTest::Test
     assert_respond_to(Changer, :run)
   end
 
+  def test_run_with_5
+    coin = Changer.new
+    assert_equal(5, Changer.run(5))
+  end
+
 end
