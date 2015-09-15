@@ -1,13 +1,9 @@
 class Changer
 
-  def initialize
-    # @array = []
-  end
-
   def self.run(amt)
-    amt
-    # @array << amt
-    # @array
+    array = []
+    array.push(amt)
+    array
   end
 
 end
